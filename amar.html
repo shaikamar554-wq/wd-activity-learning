@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ABC College Website</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f5f9;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #003366;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+        }
+
+        /* Banner */
+        header {
+            background-color: #1976d2;
+            color: white;
+            text-align: center;
+            padding: 40px 10px;
+        }
+
+        /* Information Cards */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            width: 250px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px gray;
+        }
+
+        .card h2 {
+            color: #003366;
+        }
+
+        /* Contact Section */
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px;
+            }
+
+            .card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#departments">Departments</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <header id="home">
+        <h1>ABC Engineering College</h1>
+        <p>Learn Today, Lead Tomorrow</p>
+        <p>Welcome to Our College Website</p>
+    </header>
+
+    <div class="container">
+
+        <div class="card" id="departments">
+            <h2>Departments</h2>
+            <p>Computer Science</p>
+            <p>Electronics and Communication</p>
+            <p>Mechanical Engineering</p>
+        </div>
+
+        <div class="card">
+            <h2>Courses</h2>
+            <p>B.Tech CSE</p>
+            <p>B.Tech ECE</p>
+            <p>B.Tech Mechanical</p>
+        </div>
+
+        <div class="card">
+            <h2>Faculty</h2>
+            <p>Experienced professors</p>
+            <p>Qualified teaching staff</p>
+            <p>Expert guidance</p>
+        </div>
+
+        <div class="card" id="admissions">
+            <h2>Admissions</h2>
+            <p>Apply for admission to our college.</p>
+            <p>Submit application and certificates.</p>
+            <p>Contact the admission office.</p>
+        </div>
+
+        <div class="card" id="facilities">
+            <h2>Campus Facilities</h2>
+            <p>Library</p>
+            <p>Computer Labs</p>
+            <p>Sports and Hostel</p>
+        </div>
+
+        <div class="card">
+            <h2>Events</h2>
+            <p>Technical Workshops</p>
+            <p>College Fest</p>
+            <p>Sports Day</p>
+        </div>
+
+    </div>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@abccollege.edu</p>
+        <p>Phone: 9876543210</p>
+        <p>Address: Vijayawada, Andhra Pradesh</p>
+        <p>© 2026 ABC Engineering College</p>
+    </footer>
+
+</body>
+</html>
